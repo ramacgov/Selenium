@@ -12,7 +12,7 @@ public class seleniumclass {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\7J4333897\\Desktop\\Driver\\chromedriver.exe");
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
 		//Webdriver Browser Commands
 		WebDriver Driver = new ChromeDriver();
 		//Driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
@@ -30,7 +30,8 @@ public class seleniumclass {
 		//Driver.navigate().to("https://www.DemoQA.com");
 		//Driver.navigate().forward();
 		//Driver.navigate().back();
-		//Driver.close();
+		//Driver.wait(2000);
+		Driver.close();
 	}
 	
 
